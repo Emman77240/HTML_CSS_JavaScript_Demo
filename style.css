@@ -73,15 +73,16 @@ img {
     font-family: inherit;
     border-radius: 6px;
     border-style: none;
-    padding: 10px;
+    padding: 12px;
     cursor: pointer; 
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 .main-menu-items {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 p {
