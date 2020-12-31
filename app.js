@@ -4,6 +4,7 @@ const button = document.querySelector("button");
 
 button.addEventListener('click', randomActivity);
 function randomActivity() {
+    main.innerHTML = "";
     fetch(apiUrl).then(res => res.json())
     .then(function(data) {
         const text = document.createElement('h2');
